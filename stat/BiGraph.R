@@ -59,12 +59,12 @@ BiGraph <- function(mr4,var,ass3,char){
   
   #---- save the table
   
-  write.table(bioinc_sign,paste0("C:/Users/Raph/switchdrive/LaboBiolSol/Rnw/stat/results/bioinc_sign",char,".txt"),sep="\t",quote=F)
+ 
   
   
   #---- remove index 1 of the table
   bioinc_sign <- bioinc_sign[which(bioinc_sign$index != 1),]
-
+  write.table(bioinc_sign,paste0("C:/Users/Raph/switchdrive/LaboBiolSol/Rnw/stat/results/bioinc_sign",char,".txt"),sep="\t",quote=F)
 
   # ---------------------------
   # extract each significant OTUs for each group
