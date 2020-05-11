@@ -276,15 +276,113 @@ print(p_rda)
 
 <<bioindic, echo = FALSE,warning=FALSE,message=FALSE>>=
 
-source("C:/Users/Raph/switchdrive/LaboBiolSol/Rnw/stat/bioindic.R")
-source("C:/Users/Raph/switchdrive/LaboBiolSol/Rnw/stat/bipart_graph.R")
+# source("C:/Users/Raph/switchdrive/LaboBiolSol/Rnw/stat/bioindic.R")
+# source("C:/Users/Raph/switchdrive/LaboBiolSol/Rnw/stat/bipart_graph.R")
+source("C:/Users/Raph/switchdrive/LaboBiolSol/Rnw/stat/BiGraph.R")
 
 @
+
+<<bioinc_08, echo = FALSE,warning=FALSE,message=FALSE>>=
+ bioinc_08 <- BiGraph(mr4,var,ass3,char = "08")
+ 
+ layout(matrix(c(1,2), nrow=2, byrow=T), c(1,1), c(7,3))
+ par(mar=c(0,0,0,0), oma=c(0,0,0,0))
+ plot(bioinc_08$bi, vertex.label.cex=2, layout=bioinc_08$bi_fr, asp=0)
+ plot(1, type="n", ann=F, axes=F)
+ legend("center", pch=19, bty="n", horiz=F, x.intersp=0.4,cex = 0.75,
+        legend= bioinc_08$lev, 
+        col=bioinc_08$cols,ncol = 2)
+ index_bioindic <- c()
+  for(i in 1:nrow(bioinc_08$table)){
+    index_bioindic <- c(index_bioindic,which(rownames(bioinc_08$table)[i] == colnames(mr4)))
+  }
+ write.table(ass3[index_bioindic,],"C:/Users/Raph/switchdrive/LaboBiolSol/Rnw/stat/results/bioincTable08.csv",sep=";",quote=F)
+
+  
+@
+
+<<bioinc_15, echo = FALSE,warning=FALSE,message=FALSE>>=
+ bioinc_15 <- BiGraph(mr4,var,ass3,char = "15")
+ 
+ layout(matrix(c(1,2), nrow=2, byrow=T), c(1,1), c(7,3))
+ par(mar=c(0,0,0,0), oma=c(0,0,0,0))
+ plot(bioinc_15$bi, vertex.label.cex=2, layout=bioinc_15$bi_fr, asp=0)
+ plot(1, type="n", ann=F, axes=F)
+ legend("center", pch=19, bty="n", horiz=F, x.intersp=0.4,cex = 0.75,
+        legend= bioinc_15$lev, 
+        col=bioinc_15$cols,ncol = 2)
+ index_bioindic <- c()
+  for(i in 1:nrow(bioinc_15$table)){
+    index_bioindic <- c(index_bioindic,which(rownames(bioinc_15$table)[i] == colnames(mr4)))
+  }
+ write.table(ass3[index_bioindic,],"C:/Users/Raph/switchdrive/LaboBiolSol/Rnw/stat/results/bioincTable15.csv",sep=";",quote=F)
+
+  
+@
+
+<<bioinc_21, echo = FALSE,warning=FALSE,message=FALSE>>=
+ bioinc_21 <- BiGraph(mr4,var,ass3,char = "21")
+ 
+ layout(matrix(c(1,2), nrow=2, byrow=T), c(1,1), c(7,3))
+ par(mar=c(0,0,0,0), oma=c(0,0,0,0))
+ plot(bioinc_21$bi, vertex.label.cex=2, layout=bioinc_21$bi_fr, asp=0)
+ plot(1, type="n", ann=F, axes=F)
+ legend("center", pch=19, bty="n", horiz=F, x.intersp=0.4,cex = 0.75,
+        legend= bioinc_21$lev, 
+        col=bioinc_21$cols,ncol = 2)
+ index_bioindic <- c()
+  for(i in 1:nrow(bioinc_21$table)){
+    index_bioindic <- c(index_bioindic,which(rownames(bioinc_21$table)[i] == colnames(mr4)))
+  }
+ write.table(ass3[index_bioindic,],"C:/Users/Raph/switchdrive/LaboBiolSol/Rnw/stat/results/bioincTable21.csv",sep=";",quote=F)
+
+  
+@
+
+<<bioinc_64, echo = FALSE,warning=FALSE,message=FALSE>>=
+ bioinc_64 <- BiGraph(mr4,var,ass3,char = "64")
+ 
+ layout(matrix(c(1,2), nrow=2, byrow=T), c(1,1), c(7,3))
+ par(mar=c(0,0,0,0), oma=c(0,0,0,0))
+ plot(bioinc_64$bi, vertex.label.cex=2, layout=bioinc_64$bi_fr, asp=0)
+ plot(1, type="n", ann=F, axes=F)
+ legend("center", pch=19, bty="n", horiz=F, x.intersp=0.4,cex = 0.75,
+        legend= bioinc_64$lev, 
+        col=bioinc_64$cols,ncol = 2)
+ index_bioindic <- c()
+  for(i in 1:nrow(bioinc_64$table)){
+    index_bioindic <- c(index_bioindic,which(rownames(bioinc_64$table)[i] == colnames(mr4)))
+  }
+ write.table(ass3[index_bioindic,],"C:/Users/Raph/switchdrive/LaboBiolSol/Rnw/stat/results/bioincTable64.csv",sep=";",quote=F)
+
+  
+@
+
+<<bioinc_98, echo = FALSE,warning=FALSE,message=FALSE>>=
+ bioinc_98 <- BiGraph(mr4,var,ass3,char = "98")
+ 
+ layout(matrix(c(1,2), nrow=2, byrow=T), c(1,1), c(7,3))
+ par(mar=c(0,0,0,0), oma=c(0,0,0,0))
+ plot(bioinc_98$bi, vertex.label.cex=2, layout=bioinc_98$bi_fr, asp=0)
+ plot(1, type="n", ann=F, axes=F)
+ legend("center", pch=19, bty="n", horiz=F, x.intersp=0.4,cex = 0.75,
+        legend= bioinc_98$lev, 
+        col=bioinc_98$cols,ncol = 2)
+ index_bioindic <- c()
+  for(i in 1:nrow(bioinc_98$table)){
+    index_bioindic <- c(index_bioindic,which(rownames(bioinc_98$table)[i] == colnames(mr4)))
+  }
+ write.table(ass3[index_bioindic,],"C:/Users/Raph/switchdrive/LaboBiolSol/Rnw/stat/results/bioincTable98.csv",sep=";",quote=F)
+
+  
+@
+
+
 
 \section{Heatmap}
 
 <<heatmap,echo = FALSE,warning=FALSE,message=FALSE>>=
-source("C:/Users/Raph/switchdrive/LaboBiolSol/Rnw/stat/heatmap.R")
+# source("C:/Users/Raph/switchdrive/LaboBiolSol/Rnw/stat/heatmap.R")
 @
 
 % \bibliography{bibyves}

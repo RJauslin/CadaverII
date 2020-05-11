@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.18)  11 MAY 2020 08:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.11)  11 MAY 2020 13:22
 entering extended mode
 **./stat.tex
 (stat.tex
 LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-03-06>
+L3 programming layer <2020-04-06>
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\article.cls"
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\size11.clo"
@@ -763,46 +763,74 @@ File: figure/image-rda-1.pdf Graphic file (type pdf)
 Package pdftex.def Info: figure/image-rda-1.pdf  used on input line 292.
 (pdftex.def)             Requested size: 418.25368pt x 418.25981pt.
  [4 <./figure/image-nmds-1.pdf>]
-<figure/image-bioindic-1.pdf, id=77, 505.89pt x 505.89pt>
-File: figure/image-bioindic-1.pdf Graphic file (type pdf)
-<use figure/image-bioindic-1.pdf>
-Package pdftex.def Info: figure/image-bioindic-1.pdf  used on input line 312.
+<figure/image-bioinc_08-1.pdf, id=77, 505.89pt x 505.89pt>
+File: figure/image-bioinc_08-1.pdf Graphic file (type pdf)
+<use figure/image-bioinc_08-1.pdf>
+Package pdftex.def Info: figure/image-bioinc_08-1.pdf  used on input line 314.
 (pdftex.def)             Requested size: 418.25368pt x 418.25981pt.
  [5 <./figure/image-rda-1.pdf>]
-<figure/image-heatmap-1.pdf, id=91, 505.89pt x 505.89pt>
-File: figure/image-heatmap-1.pdf Graphic file (type pdf)
-<use figure/image-heatmap-1.pdf>
-Package pdftex.def Info: figure/image-heatmap-1.pdf  used on input line 320.
-(pdftex.def)             Requested size: 418.25368pt x 418.25981pt.
- [6 <./figure/image-bioindic-1.pdf>]
-<figure/image-heatmap-2.pdf, id=102, 505.89pt x 505.89pt>
-File: figure/image-heatmap-2.pdf Graphic file (type pdf)
-<use figure/image-heatmap-2.pdf>
-Package pdftex.def Info: figure/image-heatmap-2.pdf  used on input line 322.
+<figure/image-bioinc_15-1.pdf, id=91, 505.89pt x 505.89pt>
+File: figure/image-bioinc_15-1.pdf Graphic file (type pdf)
+<use figure/image-bioinc_15-1.pdf>
+Package pdftex.def Info: figure/image-bioinc_15-1.pdf  used on input line 320.
 (pdftex.def)             Requested size: 418.25368pt x 418.25981pt.
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 322--323
+Overfull \hbox (17.0pt too wide) in paragraph at lines 320--321
 [][] 
  []
 
-[7 <./figure/image-heatmap-1.pdf>] [8 <./figure/image-heatmap-2.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 329.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 329.
- (stat.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 329.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 329.
+[6 <./figure/image-bioinc_08-1.pdf>]
+<figure/image-bioinc_21-1.pdf, id=102, 505.89pt x 505.89pt>
+File: figure/image-bioinc_21-1.pdf Graphic file (type pdf)
+<use figure/image-bioinc_21-1.pdf>
+Package pdftex.def Info: figure/image-bioinc_21-1.pdf  used on input line 326.
+(pdftex.def)             Requested size: 418.25368pt x 418.25981pt.
+
+Overfull \hbox (17.0pt too wide) in paragraph at lines 326--327
+[][] 
+ []
+
+[7 <./figure/image-bioinc_15-1.pdf>]
+<figure/image-bioinc_64-1.pdf, id=114, 505.89pt x 505.89pt>
+File: figure/image-bioinc_64-1.pdf Graphic file (type pdf)
+<use figure/image-bioinc_64-1.pdf>
+Package pdftex.def Info: figure/image-bioinc_64-1.pdf  used on input line 332.
+(pdftex.def)             Requested size: 418.25368pt x 418.25981pt.
+
+Overfull \hbox (17.0pt too wide) in paragraph at lines 332--333
+[][] 
+ []
+
+[8 <./figure/image-bioinc_21-1.pdf>]
+<figure/image-bioinc_98-1.pdf, id=125, 505.89pt x 505.89pt>
+File: figure/image-bioinc_98-1.pdf Graphic file (type pdf)
+<use figure/image-bioinc_98-1.pdf>
+Package pdftex.def Info: figure/image-bioinc_98-1.pdf  used on input line 338.
+(pdftex.def)             Requested size: 418.25368pt x 418.25981pt.
+
+Overfull \hbox (17.0pt too wide) in paragraph at lines 338--339
+[][] 
+ []
+
+[9 <./figure/image-bioinc_64-1.pdf>] [10 <./figure/image-bioinc_98-1.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 351.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 351.
+
+(stat.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 351.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 351.
 Package rerunfilecheck Info: File `stat.out' has not changed.
 (rerunfilecheck)             Checksum: 5CFF045AB34DCFECFD116D4B5277CFBC;256.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 329.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 351.
  ) 
 Here is how much of TeX's memory you used:
- 17987 strings out of 480934
- 329805 string characters out of 2909685
- 573492 words of memory out of 3000000
- 33457 multiletter control sequences out of 15000+200000
+ 18005 strings out of 481005
+ 330335 string characters out of 2910603
+ 570656 words of memory out of 3000000
+ 33402 multiletter control sequences out of 15000+200000
  541767 words of font info for 47 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,7n,60p,406b,352s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,7n,60p,406b,340s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Raph\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\e
 cbx1440.pk> <C:\Users\Raph\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec
 /dpi600\ecrm1095.pk> <C:\Users\Raph\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jk
@@ -810,9 +838,9 @@ nappen/ec/dpi600\ecrm0900.pk> <C:\Users\Raph\AppData\Local\MiKTeX\2.9\fonts/pk/
 ljfour/jknappen/ec/dpi600\ecrm0600.pk> <C:\Users\Raph\AppData\Local\MiKTeX\2.9\
 fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Raph\AppData\Local\Mi
 KTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk>
-Output written on stat.pdf (8 pages, 150848 bytes).
+Output written on stat.pdf (10 pages, 185038 bytes).
 PDF statistics:
- 304 PDF objects out of 1000 (max. 8388607)
- 16 named destinations out of 1000 (max. 500000)
- 96 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 329 PDF objects out of 1000 (max. 8388607)
+ 18 named destinations out of 1000 (max. 500000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
