@@ -9,7 +9,6 @@ index <- which(groups == "Control")
 
 # index_98 <- c(index,which(grepl("98",groups)))
 
-
 index <-  c(index,which(grepl("64",groups)))
 groups <- groups[index]
 groups <- factor(groups)
@@ -29,16 +28,9 @@ length(which(keep))
 dge_indic <- dge_indic[keep, , keep.lib.sizes=FALSE]
 min(colSums(t(dge_indic$counts)))
 dge_indic$counts
-
-
-# dge_indic <- calcNormFactors(dge_indic,method = "TMM")
 mr_indic <- t(dge_indic$counts)
 
-#------------------------------------------------------------------------------------------------------------------------
-#------------------------------------------------------------------------------------------------------------------------
-#------------------------------------------------------------------------------------------------------------------------
-#------------------------------------------------------------------------------------------------------------------------
-
+#---- edgeR analyses
 
 disp_indic <- estimateGLMRobustDisp(dge_indic,design = design)
 glmfit_indic <- glmFit(disp_indic, design = design)
@@ -48,11 +40,7 @@ indc_edge <- indc_edge$table
 
 
 
-#------------------------------------------------------------------------------------------------------------------------
-#------------------------------------------------------------------------------------------------------------------------
-#------------------------------------------------------------------------------------------------------------------------
-#------------------------------------------------------------------------------------------------------------------------
-#------------------------------------------------------------------------------------------------------------------------
+#---- Indicspecies analyses
 
 bioinc <- multipatt(mr_indic,groups,func = "r.g" ,control = how(nperm=9999))
 bioinc_sign <- bioinc$sign
@@ -63,5 +51,7 @@ bioinc_sign <- bioinc_sign[which(bioinc_sign$p.value < 0.05),]
 index_edge_indval <- intersect(rownames(bioinc_sign),rownames(indc_edge))
 bioinc_sign <- bioinc_sign[index_edge_indval,]
 mr_indic <- mr_indic[,rownames(bioinc_sign)]
+
+#---- save the table
 
 write.table(bioinc_sign,"C:/Users/Raph/switchdrive/LaboBiolSol/Rnw/stat/results/bioinc_sign.txt",sep="\t",quote=F)
